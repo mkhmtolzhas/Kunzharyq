@@ -20,7 +20,7 @@
 
 @media (max-width: 900px) {
     .navbar a {
-        font-size: 20px;
+        font-size: 16px;
     }
     .header{
         height: 5%;
@@ -39,7 +39,7 @@
 
 @media (max-width: 638px) {
     .navbar a {
-        font-size: 13px;
+        font-size: 9px;
     }
     .logo img {
         width: 80%;
@@ -58,7 +58,7 @@
 
 @media (max-width: 443px) {
     .navbar a {
-        font-size: 10px;
+        font-size: 7px;
     }
     .sections {
         width: auto;
@@ -70,7 +70,7 @@
 
 @media (max-width: 363px) {
     .navbar a {
-        font-size: 8px;
+        font-size: 6px;
     }
 }
 
