@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"defer></script>
+    <script src="/static/scripts/slick.js" defer></script>
+    <script src="/static/scripts/slick.min.js" defer></script>
+    <title>Kunzharyq</title>
+</head>
+<body>
+    <header class="header" id="site-header">
+        <nav class="navbar">
+            <a href="">
+                MUSIC
+            </a>
+            <a href="">
+                ABOUT
+            </a>
+        </nav>
+        <nav class="logo">
+            <img src="../static/img/logo_kun.png" alt="">
+        </nav>
+        <nav class="navbar">
+            <a href="">
+                NEWS
+            </a><a href="">
+                SHOP
+            </a>
+        </nav>
+    </header>
+    <img src="/static/img/salem.png" alt="" class="intro">
+    <div class="songs">
+        <div class="container slider">
+            {% for music in musics %}
+            <div class="musics">
+                <a href="{{ music.link }}">
+                    <center>
+
+                        <img src="{{ music.img }}" alt="">
+                    </center>
+                </a>
+                <center>
+                    <p>{{ music.name }}</p>
+                    <p>{{ music.when }}</h3>
+
+                </center>
+    
+            </div>
+            {% endfor %}
+        </div>
+            {% for music in musics %}
+            {% endfor %}
+            <!-- <div class="musics"></div>
+            <div class="musics"></div>
+            <div class="musics"></div>
+            <div class="musics"></div>
+            <div class="musics"></div> -->
+    </div>
+    <!-- <img src="/static/img/albums.png" alt="" class="albums"> -->
+    <footer class="footer" id = "contacts">
+        <div class="sections">
+            <h5>News</h5>
+            <li>
+                <a href="">Youtube</a>
+            </li>
+            <li>
+                <a href="">TikToks</a>
+            </li>
+            <li>
+                <a href="">Reels</a>
+            </li>
+        </div>
+        <div class="sections">
+            <h5>Info</h5>
+            <li>
+                <a href="">Concerts</a>
+            </li>
+            <li>
+                <a href="">Tickets</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+        </div>
+    </footer>
+</body>
+</html>

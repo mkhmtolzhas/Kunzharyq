@@ -1,0 +1,301 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
+@font-face {
+    font-family: 'alcotton';
+    src: local('alcotton'), url("../../static/fonts/alcotton.ttf") format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'alcotton', sans-serif;
+    letter-spacing: 0.00001em;
+}
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 900px) {
+    .navbar a {
+        font-size: 20px;
+    }
+    .header{
+        height: 5%;
+    }
+    .socials img{
+        width: 20px;
+        height: 20px;
+    }
+    .sections h5 {
+        font-size: 15px;
+    }
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 638px) {
+    .navbar a {
+        font-size: 13px;
+    }
+    .logo img {
+        width: 80%;
+    }
+    .header{
+        height: 20vh;
+
+    }
+    .logo {
+        width: 40%;
+    }
+    .sections a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 443px) {
+    .navbar a {
+        font-size: 10px;
+    }
+    .sections {
+        width: auto;
+    }
+    .logo img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 363px) {
+    .navbar a {
+        font-size: 8px;
+    }
+}
+
+
+@media (max-width: 287px) {
+    .navbar a {
+        font-size: 6px;
+    }
+    .header{
+        height: auto;
+    }
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 10vh; */
+    padding: 15px 8%;
+    background-color: rgb(113, 3, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: calc(100%/3);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    transition: .3s;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.logo img {
+    width: 80%;
+    z-index: 100;
+}
+
+.logo a {
+    font-size: 27px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}   
+
+
+
+
+
+.intro {
+    width: 100%;
+}
+
+
+
+
+.albums {
+    width: 100%;
+}
+
+
+.songs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  url(/static/img/scribble.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    width: 95%;
+    /* padding: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.musics {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.musics p {
+    font-size: 20px;
+    font-weight:900;
+}
+
+.musics a img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 220px;
+}
+
+
+.slick-arrow {
+    filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.8));
+    color: transparent;
+}
+.slick-next:before, .slick-prev:before {
+    font-family: slick;
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    /* height: 40vh; */
+    background: rgb(113, 3, 1);
+    padding: 50px 8%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+.sections {
+    /* width: calc(100%/3.5); */
+    /* height: 100%; */
+    color: #fff;
+    text-align: center;
+}
+
+
+.sections li{
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.sections a{
+    font-size: 15px;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+
+.socials {
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.socials img{
+    width: 40px;
+    height: 40px;
+}
+
+.sections h5 {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .tours {
+    display: flex;
+    margin-top: 70px;
+}
+
+.col-md-12 {
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner-col {
+    width: 90%;
+    height: 55vh;
+    background: #000;
+    border-radius: 20px;
+}
+ */
+
+
