@@ -89,6 +89,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #fff;
+}
+
 .header {
     top: 0;
     left: 0;
@@ -137,6 +141,8 @@ nav a {
 
 .intro {
     width: 100%;
+    pointer-events: none;
+
 }
 
 
